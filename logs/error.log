@@ -1,0 +1,439 @@
+2017-07-11 13:01:47 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 299
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Configure\FileConfigTrait.php(52): Cake\Core\Plugin::configPath('Sourcefragment/...')
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Configure\Engine\PhpConfig.php(69): Cake\Core\Configure\Engine\PhpConfig->_getFilePath('Sourcefragment/...', true)
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Configure.php(301): Cake\Core\Configure\Engine\PhpConfig->read('Sourcefragment/...')
+#3 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\config\bootstrap.php(11): Cake\Core\Configure::load('Sourcefragment/...')
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php(400): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php(322): Cake\Core\Plugin::_includeFile('D:\\xampp\\htdocs...', false)
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php(175): Cake\Core\Plugin::bootstrap('UserAuthenticat...')
+#7 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('UserAuthenticat...', Array)
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#10 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#11 {main}
+
+
+2017-07-11 13:02:21 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:03:31 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:03:32 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:13 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:14 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:15 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
+2017-07-11 13:08:16 Error: [Cake\Core\Exception\MissingPluginException] Plugin Sourcefragment/UserAuthentication could not be found. in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Sourcefragment/UserAuthentication',
+)
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\config\bootstrap.php(224): Cake\Core\Plugin::load('Sourcefragment/...', Array)
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(61): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(70): Cake\Http\BaseApplication->bootstrap()
+#3 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#4 {main}
+
+
