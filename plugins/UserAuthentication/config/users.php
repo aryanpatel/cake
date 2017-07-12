@@ -48,6 +48,18 @@ $config = [
         ],
         // Avatar placeholder
         'Avatar' => ['placeholder' => 'UserAuthentication.avatar_placeholder.png'],
+        'RememberMe' => [
+            // configure Remember Me component
+            'active' => true,
+            'checked' => true,
+            'Cookie' => [
+                'name' => 'remember_me',
+                'Config' => [
+                    'expires' => '1 month',
+                    'httpOnly' => true,
+                ]
+            ]
+        ],
     ],
     // default configuration used to for the Auth Component. Can be override to change the way Authentication works
     'Auth' => [

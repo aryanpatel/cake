@@ -82,24 +82,49 @@ trait PasswordManagementTrait {
         $this->set(compact('user'));
         $this->set('_serialize', ['user']);
     }
-    
+
     /**
      * Reset password
      * 
      * @param null $token token data
      * @return void
      */
-    
     public function resetPassword($token = NULL) {
         $this->validate('password', $token);
     }
-    
+
+    /**
+     * Reset password
+     *
+     * @return void|\Cake\Network\Response
+     */
     public function requestResetPassword() {
-        $this->set('user',$this->getUserTable->newEntity());
+        $this->set('user', $this->getUserTable->newEntity());
         $this->set('_serialize', ['user']);
         if (!$this->request->is('post')) {
             return;
         }
         $reference = $this->request->getData('reference');
+        try {
+            $resetUser = $this->getUserTable->resetToken($reference, [
+                'expiration' => Configure::read('User.Token.expire'),
+                'checkActive' => FALSE,
+                'sendEmail' => TRUE,
+                'ensureActive' => Configure::read('Users.Registration.ensureActive')
+            ]);
+            if ($resetUsere) {
+                $this->Flash->success(__d('UserAuthentication', 'Please check your email to continue with password reset process'));
+            } else {
+                $this->Flash->error(__d('UserAuthentication', 'Password reset token could not be generated. Please try again'));
+            }
+            return $this->redirect(['action' => 'login']);
+        } catch (UserNotFoundException $ex) {
+            $this->Flash->error(__d('UserAuthentication', 'User {0} was not found', $reference));
+        } catch (UserNotActiveException $ex) {
+            $this->Flash->error(__d('UserAuthentication', 'User is not active'));
+        } catch (Exception $ex) {
+            $this->Flash->error(__d('UserAuthentication', 'Token could not be reset'));
+        }
     }
+
 }
