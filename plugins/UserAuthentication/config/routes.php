@@ -1,5 +1,6 @@
 <?php
 use Cake\Routing\RouteBuilder;
+use Cake\Core\Configure;
 use Cake\Routing\Router;
 use Cake\Routing\Route\DashedRoute;
 

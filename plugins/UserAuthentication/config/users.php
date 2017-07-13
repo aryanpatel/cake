@@ -60,20 +60,20 @@ $config = [
                 ]
             ]
         ],
-    ],
-    // default configuration used to for the Auth Component. Can be override to change the way Authentication works
-    'Auth' => [
-        'loginAction' => [
-            'plugin' => 'UserAuthentication',
-            'controller' => 'Users',
-            'action' => 'login',
-            'prefix' => FALSE
-        ],
-        'authentication' => [
-            'all' => [
-                'finder' => 'auth'
+        // default configuration used to for the Auth Component. Can be override to change the way Authentication works
+        'Auth' => [
+            'loginAction' => [
+                'plugin' => 'UserAuthentication',
+                'controller' => 'Users',
+                'action' => 'login',
+                'prefix' => FALSE
             ],
-            'Form'
+            'authentication' => [
+                'all' => [
+                    'finder' => 'auth'
+                ],
+                'Form'
+            ]
         ]
     ]
 ];

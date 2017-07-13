@@ -583,3 +583,1397 @@ Stack Trace:
 #2 {main}
 
 
+2017-07-13 07:42:49 Error: [Cake\Controller\Exception\MissingComponentException] Component class UserAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UserAuthComponent',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\Controller\ComponentRegistry->_throwMissingClassError('UserAuth', 'UserAuthenticat...')
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(322): Cake\Core\ObjectRegistry->load('UserAuthenticat...', Array)
+#2 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\AppController.php(20): Cake\Controller\Controller->loadComponent('UserAuthenticat...')
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(262): UserAuthentication\Controller\AppController->initialize()
+#4 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(77): ReflectionClass->newInstance(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-07-13 07:46:07 Error: [Cake\Controller\Exception\MissingComponentException] Component class UserAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UserAuthComponent',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\Controller\ComponentRegistry->_throwMissingClassError('UserAuth', 'UserAuthenticat...')
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(322): Cake\Core\ObjectRegistry->load('UserAuthenticat...', Array)
+#2 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\AppController.php(20): Cake\Controller\Controller->loadComponent('UserAuthenticat...')
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(262): UserAuthentication\Controller\AppController->initialize()
+#4 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(77): ReflectionClass->newInstance(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-07-13 07:53:20 Error: [Cake\Controller\Exception\MissingComponentException] Component class UserAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UserAuthComponent',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\Controller\ComponentRegistry->_throwMissingClassError('UserAuth', 'UserAuthenticat...')
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(322): Cake\Core\ObjectRegistry->load('UserAuthenticat...', Array)
+#2 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\AppController.php(20): Cake\Controller\Controller->loadComponent('UserAuthenticat...')
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(262): UserAuthentication\Controller\AppController->initialize()
+#4 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(77): ReflectionClass->newInstance(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-07-13 07:53:47 Error: [Cake\Controller\Exception\MissingComponentException] Component class UserAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UserAuthComponent',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\Controller\ComponentRegistry->_throwMissingClassError('UserAuth', 'UserAuthenticat...')
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(322): Cake\Core\ObjectRegistry->load('UserAuthenticat...', Array)
+#2 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\AppController.php(20): Cake\Controller\Controller->loadComponent('UserAuthenticat...')
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(262): UserAuthentication\Controller\AppController->initialize()
+#4 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(77): ReflectionClass->newInstance(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-07-13 07:57:24 Error: [Cake\Controller\Exception\MissingComponentException] Component class UserAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UserAuthComponent',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\Controller\ComponentRegistry->_throwMissingClassError('UserAuth', 'UserAuthenticat...')
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(322): Cake\Core\ObjectRegistry->load('UserAuthenticat...', Array)
+#2 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\AppController.php(20): Cake\Controller\Controller->loadComponent('UserAuthenticat...')
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(262): UserAuthentication\Controller\AppController->initialize()
+#4 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(77): ReflectionClass->newInstance(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-07-13 07:59:03 Error: [Cake\Controller\Exception\MissingComponentException] Component class UserAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UserAuthComponent',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\Controller\ComponentRegistry->_throwMissingClassError('UserAuth', 'UserAuthenticat...')
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(322): Cake\Core\ObjectRegistry->load('UserAuthenticat...', Array)
+#2 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\AppController.php(20): Cake\Controller\Controller->loadComponent('UserAuthenticat...')
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(262): UserAuthentication\Controller\AppController->initialize()
+#4 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(77): ReflectionClass->newInstance(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-07-13 08:03:50 Error: [Cake\Controller\Exception\MissingComponentException] Component class UserAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UserAuthComponent',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\Controller\ComponentRegistry->_throwMissingClassError('UserAuth', 'UserAuthenticat...')
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(322): Cake\Core\ObjectRegistry->load('UserAuthenticat...', Array)
+#2 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\AppController.php(20): Cake\Controller\Controller->loadComponent('UserAuthenticat...')
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(262): UserAuthentication\Controller\AppController->initialize()
+#4 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(77): ReflectionClass->newInstance(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-07-13 08:08:33 Error: [Cake\Controller\Exception\MissingComponentException] Component class UserAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UserAuthComponent',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\Controller\ComponentRegistry->_throwMissingClassError('UserAuth', 'UserAuthenticat...')
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(322): Cake\Core\ObjectRegistry->load('UserAuthenticat...', Array)
+#2 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\AppController.php(20): Cake\Controller\Controller->loadComponent('UserAuthenticat...')
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(262): UserAuthentication\Controller\AppController->initialize()
+#4 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(77): ReflectionClass->newInstance(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-07-13 08:23:23 Warning: Warning (4096): Argument 1 passed to Cake\Core\Plugin::{closure}() must be an instance of RouteBuilder, instance of Cake\Routing\RouteBuilder given, called in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php on line 709 and defined in [D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\config\routes.php, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Core\Plugin::{closure}() - ROOT\plugins\UserAuthentication\config\routes.php, line 8
+Cake\Routing\RouteBuilder::scope() - CORE\src\Routing\RouteBuilder.php, line 709
+Cake\Routing\Router::scope() - CORE\src\Routing\Router.php, line 960
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 1036
+include - ROOT\plugins\UserAuthentication\config\routes.php, line 11
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 400
+Cake\Core\Plugin::routes() - CORE\src\Core\Plugin.php, line 350
+Cake\Core\Plugin::routes() - CORE\src\Core\Plugin.php, line 337
+include - ROOT\config\routes.php, line 82
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 1061
+Cake\Routing\Router::parseRequest() - CORE\src\Routing\Router.php, line 365
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 48
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 08:23:23 Error: [Cake\Controller\Exception\MissingComponentException] Component class UserAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UserAuthComponent',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\Controller\ComponentRegistry->_throwMissingClassError('UserAuth', 'UserAuthenticat...')
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(322): Cake\Core\ObjectRegistry->load('UserAuthenticat...', Array)
+#2 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\AppController.php(20): Cake\Controller\Controller->loadComponent('UserAuthenticat...')
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(262): UserAuthentication\Controller\AppController->initialize()
+#4 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(77): ReflectionClass->newInstance(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-07-13 08:23:24 Warning: Warning (4096): Argument 1 passed to Cake\Core\Plugin::{closure}() must be an instance of RouteBuilder, instance of Cake\Routing\RouteBuilder given, called in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php on line 709 and defined in [D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\config\routes.php, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Core\Plugin::{closure}() - ROOT\plugins\UserAuthentication\config\routes.php, line 8
+Cake\Routing\RouteBuilder::scope() - CORE\src\Routing\RouteBuilder.php, line 709
+Cake\Routing\Router::scope() - CORE\src\Routing\Router.php, line 960
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 1036
+include - ROOT\plugins\UserAuthentication\config\routes.php, line 11
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 400
+Cake\Core\Plugin::routes() - CORE\src\Core\Plugin.php, line 350
+Cake\Core\Plugin::routes() - CORE\src\Core\Plugin.php, line 337
+include - ROOT\config\routes.php, line 82
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 1061
+Cake\Routing\Router::parseRequest() - CORE\src\Routing\Router.php, line 365
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 48
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 08:23:35 Error: [Cake\Controller\Exception\MissingComponentException] Component class UserAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UserAuthComponent',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\Controller\ComponentRegistry->_throwMissingClassError('UserAuth', 'UserAuthenticat...')
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(322): Cake\Core\ObjectRegistry->load('UserAuthenticat...', Array)
+#2 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\AppController.php(20): Cake\Controller\Controller->loadComponent('UserAuthenticat...')
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(262): UserAuthentication\Controller\AppController->initialize()
+#4 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(77): ReflectionClass->newInstance(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), 'Users')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-07-13 08:24:26 Warning: Warning (4096): Argument 1 passed to Cake\Controller\Component::initialize() must be of the type array, null given, called in D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Component\RememberMeComponent.php on line 37 and defined in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Component.php, line 155]
+Request URL: /login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Component::initialize() - CORE\src\Controller\Component.php, line 155
+UserAuthentication\Controller\Component\RememberMeComponent::initialize() - ROOT\plugins\UserAuthentication\src\Controller\Component\RememberMeComponent.php, line 37
+Cake\Controller\Component::__construct() - CORE\src\Controller\Component.php, line 133
+Cake\Controller\ComponentRegistry::_create() - CORE\src\Controller\ComponentRegistry.php, line 118
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 93
+Cake\Controller\Controller::loadComponent() - CORE\src\Controller\Controller.php, line 322
+UserAuthentication\Controller\Component\UserAuthComponent::_loadRememberMe() - ROOT\plugins\UserAuthentication\src\Controller\Component\UserAuthComponent.php, line 78
+UserAuthentication\Controller\Component\UserAuthComponent::initialize() - ROOT\plugins\UserAuthentication\src\Controller\Component\UserAuthComponent.php, line 50
+Cake\Controller\Component::__construct() - CORE\src\Controller\Component.php, line 133
+Cake\Controller\ComponentRegistry::_create() - CORE\src\Controller\ComponentRegistry.php, line 118
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 93
+Cake\Controller\Controller::loadComponent() - CORE\src\Controller\Controller.php, line 322
+UserAuthentication\Controller\AppController::initialize() - ROOT\plugins\UserAuthentication\src\Controller\AppController.php, line 20
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 262
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Http\ControllerFactory::create() - CORE\src\Http\ControllerFactory.php, line 77
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 90
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 08:24:26 Error: Fatal Error (1): Class 'UserAuthentication\Controller\Component\UsersAuthComponent' not found in [D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Component\RememberMeComponent.php, line 81]
+Request URL: /login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-07-13 08:24:26 Warning: Headers already sent in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php:822
+2017-07-13 08:24:26 Error: [Cake\Error\FatalErrorException] Class 'UserAuthentication\Controller\Component\UsersAuthComponent' not found in D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Component\RememberMeComponent.php on line 81
+Request URL: /login
+Client IP: 127.0.0.1
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'UserAuth...', 'D:\\xampp\\htdocs...', 81)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-07-13 08:24:58 Error: Fatal Error (1): Class 'UserAuthentication\Controller\Component\UsersAuthComponent' not found in [D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Component\RememberMeComponent.php, line 81]
+Request URL: /login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-07-13 08:24:58 Error: [Cake\Error\FatalErrorException] Class 'UserAuthentication\Controller\Component\UsersAuthComponent' not found in D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Component\RememberMeComponent.php on line 81
+Request URL: /login
+Client IP: 127.0.0.1
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'UserAuth...', 'D:\\xampp\\htdocs...', 81)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-07-13 08:26:52 Error: Fatal Error (1): Class 'UserAuthentication\Controller\Component\UsersAuthComponent' not found in [D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Component\RememberMeComponent.php, line 81]
+Request URL: /login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-07-13 08:26:52 Error: [Cake\Error\FatalErrorException] Class 'UserAuthentication\Controller\Component\UsersAuthComponent' not found in D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Component\RememberMeComponent.php on line 81
+Request URL: /login
+Client IP: 127.0.0.1
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'UserAuth...', 'D:\\xampp\\htdocs...', 81)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-07-13 08:28:57 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found.
+Exception Attributes: array (
+  'url' => '/',
+)
+Request URL: /
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Router.php(368): Cake\Routing\RouteCollection->parseRequest(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(48): Cake\Routing\Router::parseRequest(Object(Cake\Http\ServerRequest))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#12 {main}
+
+
+2017-07-13 10:23:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Register could not be found.
+Exception Attributes: array (
+  'class' => 'Register',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 10:24:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Register could not be found.
+Exception Attributes: array (
+  'class' => 'Register',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 10:26:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Register could not be found.
+Exception Attributes: array (
+  'class' => 'Register',
+  'plugin' => 'UserAuthentication',
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /user-authentication/register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 10:34:12 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Traits\RegisterTrait.php, line 34]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-07-13 10:34:12 Error: [Cake\Error\FatalErrorException] Call to a member function user() on boolean in D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Traits\RegisterTrait.php on line 34
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 34)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-07-13 10:34:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class User could not be found.
+Exception Attributes: array (
+  'class' => 'User',
+  'plugin' => 'UserAuthentication',
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /user-authentication/user/register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 10:34:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Register could not be found.
+Exception Attributes: array (
+  'class' => 'Register',
+  'plugin' => 'UserAuthentication',
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /user-authentication/register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 10:35:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Register could not be found.
+Exception Attributes: array (
+  'class' => 'Register',
+  'plugin' => 'UserAuthentication',
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /user-authentication/register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 10:35:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Lohin could not be found.
+Exception Attributes: array (
+  'class' => 'Lohin',
+  'plugin' => 'UserAuthentication',
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /user-authentication/lohin
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 10:35:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found.
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => 'UserAuthentication',
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /user-authentication/login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 10:35:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class UserAuthentication could not be found.
+Exception Attributes: array (
+  'class' => 'UserAuthentication',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /user-authentication/
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 10:36:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found.
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => 'UserAuthentication',
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /user-authentication/login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 10:36:07 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /user-authentication/users
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(UserAuthentication\Controller\UsersController))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 11:25:33 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => 'UserAuthentication',
+)
+Request URL: /user-authentication/users
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(UserAuthentication\Controller\UsersController))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 11:25:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Register could not be found.
+Exception Attributes: array (
+  'class' => 'Register',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 11:25:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Register could not be found.
+Exception Attributes: array (
+  'class' => 'Register',
+  'plugin' => 'UserAuthentication',
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /user-authentication/register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 11:36:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /users
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 11:37:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /users
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 11:39:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Request URL: /users
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-07-13 11:42:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Request URL: /users
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-07-13 11:42:41 Error: [Cake\Network\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version.
+Request URL: /
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\View\View.php(1025): include()
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\View\View.php(986): Cake\View\View->_evaluate('D:\\xampp\\htdocs...', Array)
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\View\View.php(610): Cake\View\View->_render('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render('home', NULL)
+#4 D:\xampp\htdocs\shoppingcart\src\Controller\PagesController.php(61): Cake\Controller\Controller->render('home')
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\PagesController->display('home')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#19 {main}
+
+
+2017-07-13 11:48:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /users/users/register
+Referer URL: http://shopping.local/login
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-07-13 11:48:56 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Traits\RegisterTrait.php, line 34]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-07-13 11:48:56 Error: [Cake\Error\FatalErrorException] Call to a member function user() on boolean in D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Traits\RegisterTrait.php on line 34
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 34)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-07-13 11:56:01 Error: [Cake\Core\Exception\Exception] At least one authenticate object must be available.
+Request URL: /user-authentication/users/register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(307): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(UserAuthentication\Controller\UsersController))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(268): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Event\EventManager.php(414): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(506): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(114): Cake\Controller\Controller->startupProcess()
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(UserAuthentication\Controller\UsersController))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-07-13 11:59:48 Error: [Cake\Core\Exception\Exception] At least one authenticate object must be available.
+Request URL: /user-authentication/users/register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(307): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(UserAuthentication\Controller\UsersController))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(268): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Event\EventManager.php(414): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(506): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(114): Cake\Controller\Controller->startupProcess()
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(UserAuthentication\Controller\UsersController))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-07-13 12:00:23 Error: [Cake\Core\Exception\Exception] At least one authenticate object must be available.
+Request URL: /user-authentication/users/register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(307): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(UserAuthentication\Controller\UsersController))
+#1 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(268): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Event\EventManager.php(414): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(506): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(114): Cake\Controller\Controller->startupProcess()
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(UserAuthentication\Controller\UsersController))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-07-13 12:01:58 Error: [BadMethodCallException] Unknown method "newEntitty"
+Request URL: /user-authentication/users/register
+Stack Trace:
+#0 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Traits\RegisterTrait.php(43): Cake\ORM\Table->__call('newEntitty', Array)
+#1 D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Controller\Traits\RegisterTrait.php(43): UserAuthentication\Model\Table\UsersTable->newEntitty()
+#2 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Controller\Controller.php(440): UserAuthentication\Controller\UsersController->register()
+#3 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(UserAuthentication\Controller\UsersController))
+#5 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 D:\xampp\htdocs\shoppingcart\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 D:\xampp\htdocs\shoppingcart\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-07-13 12:01:59 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:01:59 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:01:59 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:01:59 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:02:21 Warning: Warning (4096): Argument 1 passed to UserAuthentication\Model\Table\UsersTable::validationDefault() must be an instance of UserAuthentication\Model\Table\Validator, instance of Cake\Validation\Validator given, called in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php on line 108 and defined in [D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Model\Table\UsersTable.php, line 89]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+UserAuthentication\Model\Table\UsersTable::validationDefault() - ROOT\plugins\UserAuthentication\src\Model\Table\UsersTable.php, line 89
+Cake\ORM\Table::validator() - CORE\src\Validation\ValidatorAwareTrait.php, line 108
+Cake\View\Form\EntityContext::_getValidator() - CORE\src\View\Form\EntityContext.php, line 471
+Cake\View\Form\EntityContext::isRequired() - CORE\src\View\Form\EntityContext.php, line 414
+Cake\View\Helper\FormHelper::_magicOptions() - CORE\src\View\Helper\FormHelper.php, line 1362
+Cake\View\Helper\FormHelper::_parseOptions() - CORE\src\View\Helper\FormHelper.php, line 1261
+Cake\View\Helper\FormHelper::control() - CORE\src\View\Helper\FormHelper.php, line 1083
+include - ROOT\plugins\UserAuthentication\src\Template\Users\register.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1025
+Cake\View\View::_render() - CORE\src\View\View.php, line 986
+Cake\View\View::render() - CORE\src\View\View.php, line 610
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:02:21 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:02:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:02:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:02:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:03:16 Warning: Warning (4096): Argument 1 passed to UserAuthentication\Model\Table\UsersTable::validationDefault() must be an instance of UserAuthentication\Model\Table\Validator, instance of Cake\Validation\Validator given, called in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php on line 108 and defined in [D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Model\Table\UsersTable.php, line 89]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+UserAuthentication\Model\Table\UsersTable::validationDefault() - ROOT\plugins\UserAuthentication\src\Model\Table\UsersTable.php, line 89
+Cake\ORM\Table::validator() - CORE\src\Validation\ValidatorAwareTrait.php, line 108
+Cake\View\Form\EntityContext::_getValidator() - CORE\src\View\Form\EntityContext.php, line 471
+Cake\View\Form\EntityContext::isRequired() - CORE\src\View\Form\EntityContext.php, line 414
+Cake\View\Helper\FormHelper::_magicOptions() - CORE\src\View\Helper\FormHelper.php, line 1362
+Cake\View\Helper\FormHelper::_parseOptions() - CORE\src\View\Helper\FormHelper.php, line 1261
+Cake\View\Helper\FormHelper::control() - CORE\src\View\Helper\FormHelper.php, line 1083
+include - ROOT\plugins\UserAuthentication\src\Template\Users\register.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1025
+Cake\View\View::_render() - CORE\src\View\View.php, line 986
+Cake\View\View::render() - CORE\src\View\View.php, line 610
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:03:17 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:03:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:03:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:03:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-13 12:33:48 Warning: Warning (4096): Argument 1 passed to UserAuthentication\Model\Table\UsersTable::validationDefault() must be an instance of UserAuthentication\Model\Table\Validator, instance of Cake\Validation\Validator given, called in D:\xampp\htdocs\shoppingcart\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php on line 108 and defined in [D:\xampp\htdocs\shoppingcart\plugins\UserAuthentication\src\Model\Table\UsersTable.php, line 89]
+Request URL: /user-authentication/users/register
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+UserAuthentication\Model\Table\UsersTable::validationDefault() - ROOT\plugins\UserAuthentication\src\Model\Table\UsersTable.php, line 89
+Cake\ORM\Table::validator() - CORE\src\Validation\ValidatorAwareTrait.php, line 108
+Cake\View\Form\EntityContext::_getValidator() - CORE\src\View\Form\EntityContext.php, line 471
+Cake\View\Form\EntityContext::isRequired() - CORE\src\View\Form\EntityContext.php, line 414
+Cake\View\Helper\FormHelper::_magicOptions() - CORE\src\View\Helper\FormHelper.php, line 1362
+Cake\View\Helper\FormHelper::_parseOptions() - CORE\src\View\Helper\FormHelper.php, line 1261
+Cake\View\Helper\FormHelper::control() - CORE\src\View\Helper\FormHelper.php, line 1083
+include - ROOT\plugins\UserAuthentication\src\Template\Users\register.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1025
+Cake\View\View::_render() - CORE\src\View\View.php, line 986
+Cake\View\View::render() - CORE\src\View\View.php, line 610
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+

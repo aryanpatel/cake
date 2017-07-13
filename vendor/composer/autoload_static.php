@@ -77,6 +77,8 @@ class ComposerStaticInit21181833ddbe8efb87f3e37fa55df0b7
             'Cake\\Composer\\' => 14,
             'Cake\\Chronos\\' => 13,
             'Cake\\' => 5,
+            'CakeDC\\Users\\' => 13,
+            'CakeDC\\Auth\\' => 12,
         ),
         'B' => 
         array (
@@ -222,6 +224,14 @@ class ComposerStaticInit21181833ddbe8efb87f3e37fa55df0b7
         'Cake\\' => 
         array (
             0 => __DIR__ . '/..' . '/cakephp/cakephp/src',
+        ),
+        'CakeDC\\Users\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cakedc/users/src',
+        ),
+        'CakeDC\\Auth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cakedc/auth/src',
         ),
         'Bake\\' => 
         array (

@@ -12,9 +12,11 @@ namespace UserAuthentication\Controller;
 use UserAuthentication\Controller\AppController;
 use UserAuthentication\Model\Table\UsersTable;
 use UserAuthentication\Controller\Traits\LoginTrait;
+use UserAuthentication\Controller\Traits\RegisterTrait;
 use Cake\Core\Configure;
 use Cake\ORM\Table;
 
 class UsersController Extends AppController{
     use LoginTrait;
+    use RegisterTrait;
 }

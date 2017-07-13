@@ -10,7 +10,8 @@
  */
 namespace UserAuthentication\Model\Table;
 use Cake\ORM\Table;
-
+use Cake\ORM\RulesChecker;
+use Cake\Validation\Validator;
 class UsersTable extends Table {
 
     /**
@@ -150,6 +151,7 @@ class UsersTable extends Table {
      * @param RulesChecker $rules The rules object to be modified.
      * @return RulesChecker
      */
+    
     public function buildRules(RulesChecker $rules) {
         $rules->add($rules->isUnique(['username']), '_isUnique', [
             'errorField' => 'username',

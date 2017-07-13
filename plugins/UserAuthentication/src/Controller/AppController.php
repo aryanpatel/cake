@@ -17,5 +17,6 @@ class AppController extends BaseController
         parent::initialize();
         $this->loadComponent('Security');
         $this->loadComponent('Csrf');
+        $this->loadComponent('UserAuthentication.UsersAuth');
     }
 }
