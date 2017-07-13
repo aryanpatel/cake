@@ -42,12 +42,12 @@ trait RegisterTrait {
         $usersTable = $this->getUsersTable();
         $user = $usersTable->newEntity();
         $validateEmail = (bool) Configure::read('Users.Email.validate');
-        $useTos = (bool)Configure::read('Users.Tos.required');
+        //$useTos = (bool)Configure::read('Users.Tos.required');
         $tokenExpiration = Configure::read('Users.Token.expiration');
         $options = [
             'token_expiration' => $tokenExpiration,
             'validate_email' => $validateEmail,
-            'use_tos' => $useTos
+          //  'use_tos' => $useTos
         ];
         $event = $this->dispatchEvent(UsersAuthComponent::EVENT_BEFORE_REGISTER, [
             'usersTable' => $usersTable,
@@ -68,11 +68,6 @@ trait RegisterTrait {
         if (!$this->request->is('post')) {
             return;
         }
-//        if (!$this->_validateRegisterPost()) {
-//            $this->Flash->error(__d('UserAuthentication', 'Invalid reCaptcha'));
-//
-//            return;
-//        }
 
         $userSaved = $usersTable->register($user, $requestData, $options);
         if (!$userSaved) {
